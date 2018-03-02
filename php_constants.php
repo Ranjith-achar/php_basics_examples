@@ -25,4 +25,22 @@ echo "</br>";
 define("MIDDLENAME","BC",true);
 echo middlename;//if we not it as true it ill return error
 
+
+echo "</br>";
+
+
+$string5="michel jackson";
+
+echo addcslashes($string5,"k");
+
+/*n PHP, \0, \r, \n, \t, \f and \v are predefined escape sequences.*/
+
+/*<?php
+$str = "Welcome to my humble Homepage!";
+echo $str."<br>";
+echo addcslashes($str,'m')."<br>";
+echo addcslashes($str,'H')."<br>";
+?>*/
+
+
 ?>
